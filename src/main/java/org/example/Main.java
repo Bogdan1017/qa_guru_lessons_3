@@ -6,8 +6,10 @@ public class Main {
     public static void main(String[] args) {
         // Press Alt+Enter with your caret at the highlighted text to see how
         // IntelliJ IDEA suggests fixing it.
-        System.out.printf("Hello qa guru");
+        System.out.printf(getMessage());
 
-
+    }
+    private static String getMessage(){
+        return "hello qa.guru";
     }
 }
